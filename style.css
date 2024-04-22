@@ -101,14 +101,28 @@ a {
     background-color: white;
     border-radius: 16px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .box > .text {
     max-width: 200px;
+    font-weight: bold;
 }
 .middle1 > .info {
     margin-bottom: 32px;
     font-size: 32px;
     font-weight: bolder;
+}
+.box .square img {
+    width: 200px;
+    height: 200px;
+    border-radius: 16px;
+    filter: blur(6px);
+    object-fit: cover;
+}
+.box .square img:hover {
+    filter: none;
+    transition: all .5s ease;
 }
 
 .middle2 {
@@ -164,7 +178,7 @@ a {
     color: white;
     padding: 8px 16px;
     border-radius: 8px;
-    cursor: pointerđ;
+    cursor: pointer;
 }
 
 .end {
