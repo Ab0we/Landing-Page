@@ -95,14 +95,15 @@ a {
     margin-bottom: 64px;
 }
 .box > .square {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border: 2px solid royalblue;
     background-color: white;
     border-radius: 16px;
+    display: flex;
 }
 .box > .text {
-    max-width: 100px;
+    max-width: 200px;
 }
 .middle1 > .info {
     margin-bottom: 32px;
@@ -163,6 +164,7 @@ a {
     color: white;
     padding: 8px 16px;
     border-radius: 8px;
+    cursor: pointerđ;
 }
 
 .end {
