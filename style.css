@@ -40,6 +40,9 @@ a {
     color: white;
     font-size: 18px;
 }
+ul a:hover {
+    background: rgb(46, 74, 112);
+}
 .headline > .content {
     display: flex;
     justify-content: center;
