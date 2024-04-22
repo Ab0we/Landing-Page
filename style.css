@@ -122,3 +122,35 @@ a {
     justify-content: flex-end;
     font-weight: bolder;
 }
+
+.middle3 {
+    width: 100%;
+    padding: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle3 > .content {
+    background-color: royalblue;
+    width: 700px;
+    display: flex;
+    padding: 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 128px;
+    color: white;
+    border-radius: 8px;
+}
+.middle3 .content .text > .main {
+    font-weight: bold;
+}
+.middle3 .content .text > .second {
+    font-size: 12px;
+}
+.middle3 .content > .signup2 {
+    background-color: royalblue;
+    border: 2px solid white;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
